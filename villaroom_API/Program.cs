@@ -1,5 +1,6 @@
-using Microsoft.EntityFrameworkCore;
+using villaroom_API;
 using villaroom_API.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,14 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+
+
+// Configuración de AutoMapper
+builder.Services.AddAutoMapper(typeof(MappingConfig));
+
+
+
 
 var app = builder.Build();
 
