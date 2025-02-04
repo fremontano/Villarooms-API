@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("villaroom_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57197ee348f4530b1e9c1cd71ae4676c5ce6d30b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e5a6fc079297dedc39cc6ef30443c0168fe55f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("villaroom_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("villaroom_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
